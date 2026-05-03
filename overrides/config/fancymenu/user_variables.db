@@ -1,0 +1,44 @@
+type = user_variables
+
+variable {
+  name = intro_index
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = is_first_time
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = calculator_ans
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = background_index
+  value = 4
+  reset_on_launch = false
+}
+
+variable {
+  name = asean
+  value = ["asean.thatsnek.asia"]
+  reset_on_launch = false
+}
+
+variable {
+  name = current_server
+  value = 8cb65869-e5e0-45da-b214-eb561eae35dc
+  reset_on_launch = false
+}
+
+variable {
+  name = buildteams
+  value = 
+  reset_on_launch = false
+}
+

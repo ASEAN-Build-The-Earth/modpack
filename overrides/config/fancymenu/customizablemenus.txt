@@ -1,0 +1,41 @@
+type = customizablemenus
+
+net.minecraft.class_500 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_419 {
+}
+
+net.minecraft.class_412 {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_526 {
+}
+
+net.minecraft.class_525 {
+}
+
+net.minecraft.class_424 {
+}
+
+net.minecraft.class_3928 {
+}
+
+net.minecraft.class_435 {
+}
+
+com.terraformersmc.modmenu.gui.ModsScreen {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_442 {
+}
+
