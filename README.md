@@ -22,7 +22,7 @@ Not only that, this Modpack makes it easier for you to install Important Mods to
 - [ ] BTE AFRICA Region
 - [ ] BTE AUSTRALIA Region
 
-# Updates
+# 1.0.2 Updates
 - Remastered Title Screen, and Buttons textures.
 - No longger required additional Resource Pack.
 - Fixing Continent and Asia Regions screen to support GUI Scale up to "5" (optimal GUI Scale is beetwen 2-3)!
