@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = bte_asia
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1781290866912
+  last_edited_time = 1781351807968
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:ce5074a2-d1be-4624-8cd1-c78830b58281-1781290838009] = [groups:][instances:]
+  [loading_requirement_container_meta:26ce8def-fcac-4941-ba48-d7666481d50a-1781351797264] = [groups:][instances:]
 }
 
 menu_background {
@@ -435,12 +435,11 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1200
   sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 0
-  y = -24
+  anchor_point = mid-centered
+  x = -217
+  y = -120
   width = 39
   height = 20
   stay_on_screen = true
@@ -489,8 +488,8 @@ element {
   button_element_executable_block_identifier = e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723
   [executable_action_instance:92b9cee3-b251-42f3-a3bc-8e647830fe02-1781284837332][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-admin.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:92b9cee3-b251-42f3-a3bc-8e647830fe02-1781284837332;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/textures/button_main.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/textures/hub.png
   iconhovered = [source:local]/config/fancymenu/assets/textures/hub.png
   underline_label_on_hover = false
@@ -573,8 +572,8 @@ element {
   button_element_executable_block_identifier = e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723
   [executable_action_instance:629d6d52-c785-47ea-a6ca-8d677941eb20-1781285175822][action_type:joinserver] = event.buildtheearth.net:25565
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:629d6d52-c785-47ea-a6ca-8d677941eb20-1781285175822;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/textures/button_main.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/textures/event.png
   iconhovered = [source:local]/config/fancymenu/assets/textures/event.png
   underline_label_on_hover = false
@@ -770,12 +769,11 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1200
   sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 349
-  y = -24
+  anchor_point = mid-centered
+  x = 141
+  y = -120
   width = 76
   height = 20
   stay_on_screen = true
@@ -829,13 +827,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1200
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = -215
-  y = -96
-  width = 430
-  height = 212
+  anchor_point = element
+  anchor_point_element = c837e957-58ff-4ebe-81a4-b6676ec2890e-1781346736908
+  x = -187
+  y = 33
+  width = 434
+  height = 214
   stay_on_screen = true
   element_loading_requirement_container_identifier = cbc994c6-1120-402f-8b5e-b5e0ee29c17e-1781220000574
   [loading_requirement_container_meta:cbc994c6-1120-402f-8b5e-b5e0ee29c17e-1781220000574] = [groups:][instances:]
@@ -887,7 +886,7 @@ element {
   [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-teamcis.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/labels/bte_asia/teamcis.png
   iconhovered = [source:local]/config/fancymenu/assets/labels/bte_asia/teamcis.png
   underline_label_on_hover = false
@@ -1057,7 +1056,7 @@ element {
   [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-southasia.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/labels/bte_asia/southasia.png
   iconhovered = [source:local]/config/fancymenu/assets/labels/bte_asia/southasia.png
   underline_label_on_hover = false
@@ -1290,7 +1289,7 @@ element {
   [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-middleeast.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/labels/bte_asia/middleeast.png
   iconhovered = [source:local]/config/fancymenu/assets/labels/bte_asia/middleeast.png
   underline_label_on_hover = false
@@ -1523,7 +1522,7 @@ element {
   [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-china.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/labels/bte_asia/china.png
   iconhovered = [source:local]/config/fancymenu/assets/labels/bte_asia/china.png
   underline_label_on_hover = false
@@ -1756,7 +1755,7 @@ element {
   [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-korea.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/labels/bte_asia/korea.png
   iconhovered = [source:local]/config/fancymenu/assets/labels/bte_asia/korea.png
   underline_label_on_hover = false
@@ -1926,7 +1925,7 @@ element {
   [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-hkmu.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/labels/bte_asia/hkmu.png
   iconhovered = [source:local]/config/fancymenu/assets/labels/bte_asia/hkmu.png
   underline_label_on_hover = false
@@ -2096,7 +2095,7 @@ element {
   [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-taiwan.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/labels/bte_asia/taiwan.png
   iconhovered = [source:local]/config/fancymenu/assets/labels/bte_asia/taiwan.png
   underline_label_on_hover = false
@@ -2266,7 +2265,7 @@ element {
   [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-asean.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/labels/bte_asia/asean.png
   iconhovered = [source:local]/config/fancymenu/assets/labels/bte_asia/asean.png
   underline_label_on_hover = false
@@ -2436,7 +2435,7 @@ element {
   [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-japan.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_hover.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
   iconnormal = [source:local]/config/fancymenu/assets/labels/bte_asia/japan.png
   iconhovered = [source:local]/config/fancymenu/assets/labels/bte_asia/japan.png
   underline_label_on_hover = false
@@ -2599,5 +2598,67 @@ element {
   table_line_thickness = 1.0
   table_cell_padding = 8.0
   table_margin = 4.0
+}
+
+element {
+  element_type = image
+  instance_identifier = c837e957-58ff-4ebe-81a4-b6676ec2890e-1781346736908
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1200
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -30
+  y = -120
+  width = 60
+  height = 16
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 4918cfc9-46f1-4ade-92ef-2ec597dd7812-1781346736908
+  [loading_requirement_container_meta:4918cfc9-46f1-4ade-92ef-2ec597dd7812-1781346736908] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  source = [source:local]/config/fancymenu/assets/textures/region_title.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
+  rounding_radius_top_left = 0.0
+  rounding_radius_top_right = 0.0
+  rounding_radius_bottom_right = 0.0
+  rounding_radius_bottom_left = 0.0
 }
 

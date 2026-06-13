@@ -10,14 +10,21 @@ Not only that, this Modpack makes it easier for you to install Important Mods to
 - [ ] BTE Introduction Screen
 - [x] BTE Select Continents Screen
 - [x] BTE Loading Screen
-- [ ] BTE Game Paused Screen
+- [x] BTE Game Paused Screen
 - [ ] BTE Connecting Screen
 - [ ] BTE Disconnecting Screen
 
 ### Regions :
 - [x] BTE ASIA Regions
-- [ ] BTE EUROPE Regions (ongoing)
+- [ ] BTE EUROPE Regions (paused)
 - [ ] BTE NORTH AMERICA Regions
 - [ ] BTE SOUTH AMERICA Regions
 - [ ] BTE AFRICA Region
 - [ ] BTE AUSTRALIA Region
+
+# Updates
+- Remastered Title Screen, and Buttons textures.
+- No longger required additional Resource Pack.
+- Fixing Continent and Asia Regions screen to support GUI Scale up to "5" (optimal GUI Scale is beetwen 2-3)!
+- BTE Game Paused Finished.
+- Due to fixing Continents and Regions screen layout, Europe Regions screen is currently paused.
