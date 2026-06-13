@@ -25,6 +25,6 @@ Not only that, this Modpack makes it easier for you to install Important Mods to
 # 1.0.2 Updates
 - Remastered Title Screen, and Buttons textures.
 - No longger required additional Resource Pack.
-- Fixing Continent and Asia Regions screen to support GUI Scale up to "5" (optimal GUI Scale is beetwen 2-3)!
+- Fixing Continent and Asia Regions screen to support GUI Scale up to "5x" (optimal GUI Scale is beetwen 2-4x)!
 - BTE Game Paused Finished.
 - Due to fixing Continents and Regions screen layout, Europe Regions screen is currently paused.
