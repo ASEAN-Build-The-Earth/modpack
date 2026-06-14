@@ -9,7 +9,7 @@ Not only that, this Modpack makes it easier for you to install Important Mods to
 
 ## Listings :
 - [x] BTE Title Screen
-- [ ] BTE Introduction Screen
+- [ ] BTE Introduction Screen (ongoing)
 - [x] BTE Select Continents Screen
 - [x] BTE Loading Screen
 - [x] BTE Game Paused Screen
@@ -17,14 +17,14 @@ Not only that, this Modpack makes it easier for you to install Important Mods to
 - [ ] BTE Disconnecting Screen
 
 ### Regions :
-- [x] BTE Special Servers
+- [ ] BTE Special Servers (Suspended)
 - [x] BTE ASIA Regions
-- [ ] BTE EUROPE Regions (paused)
-- [ ] BTE NORTH AMERICA Regions
-- [ ] BTE SOUTH AMERICA Regions
-- [ ] BTE AFRICA Region
-- [ ] BTE AUSTRALIA Region
+- [x] BTE EUROPE Regions (paused)
+- [x] BTE NORTH AMERICA Regions
+- [x] BTE SOUTH AMERICA Regions
+- [x] BTE AFRICA Region
+- [x] BTE AUSTRALIA Region
 
-# 1.0.3 Updates
-- Locking GUI Scale on 4x (cause 5x was Overkill and 3x or below makes the UI too small and yet 4x was the best).
-- Adding "Special Servers" screen to replace HUB & Event buttons, and also this screen was adding more access BTE Military Builders and BTE Theme Parks!
+# 1.0.4 Updates
+- Releasing 1.0.4-beta.
+- Finally finishing all the Regions UI.

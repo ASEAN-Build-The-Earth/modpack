@@ -1,0 +1,14 @@
+type = user_variables
+
+variable {
+  name = is_first_time
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = intro_pages
+  value = 0
+  reset_on_launch = false
+}
+
