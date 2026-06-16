@@ -8,7 +8,7 @@ The Main feature of this Modpack is on the FancyMenu's Mod Layout by giving a wh
 Not only that, this Modpack makes it easier for you to install Important Mods to begin Exploring or Building in BuildTheEarth.
 
 # 1.1.0 Updates
-- Releasing 1.1.0-Release, an Finished Version of BTE Unofficial Modpack.
+- Releasing 1.1.0-Release, an Finished Version of BTE ASEAN Modpack.
 - Adding Replay Mod support Back.
 - Adding new ACTIVATE/DEACTIVATE REPLAY MODE on Paused Screen.
 - Adding custom Replay Viewer & Open Introduction button.
