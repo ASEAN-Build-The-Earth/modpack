@@ -1,7 +1,7 @@
 ![ModpackBanner](https://github.com/ASEAN-Build-The-Earth/modpack/blob/dev/ModpackBanner.png)
 
-# BuildTheEarth ~Unofficial~ ASEAN (for now :P) Modpack for 1.21.11 & 26.1.2
-This Modpack gonna be have 2 version for Minecraft 1.21.11 and 26.1.2, each have Three different Files for Importing to Modrinth, CurseForge, and Universal by copy, pasting, and replacing your Minecraft's Files.
+# BuildTheEarth ~Unofficial~ ASEAN (for now :P) Modpack for 26.1.2
+This Modpack gonna be have only 26.1.2 versions, and will have Three different Files for Importing to Modrinth, CurseForge, and Universal / MultiMC. Why only 26.1.2? cause this version supports all BTE Server without issues, at least for now! Quick tips do not Update any pre-installed Mods, it might broke the Modpack (crashing X_X). 
 
 ## Feature :
 The Main feature of this Modpack is on the FancyMenu's Mod Layout by giving a whole new Playfull User Interfaces.
