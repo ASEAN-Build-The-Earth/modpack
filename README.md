@@ -8,7 +8,8 @@ The Main feature of this Modpack is on the FancyMenu's Mod Layout by giving a wh
 Not only that, this Modpack makes it easier for you to install Important Mods to begin Exploring or Building in BuildTheEarth.
 
 # 1.2.1 Updates
-- 
+- Fixing Discconecting Screen in due to Connections error layout.
+- Removing slideshow backgrounds on settings, this allow you see changes on Point on View easily.
 
 ## Credits to :
 - Replay Mod by CrushedPixel and johni0702.
