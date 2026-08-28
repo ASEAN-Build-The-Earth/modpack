@@ -322,6 +322,9 @@ jobs:
           github-token: ${{ steps.meta.outputs.github_release == 'true' && secrets.GITHUB_TOKEN || '' }}
           github-tag: ${{ steps.meta.outputs.github_tag }}
           github-commitish: ${{ github.sha }}
+          github-files: |
+            dist/*-modrinth.mrpack
+          # dist/*-curseforge.zip
 
           name: ${{ steps.meta.outputs.project_full_name }}
           version: ${{ steps.meta.outputs.project_version }}
