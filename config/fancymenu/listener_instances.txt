@@ -1,2 +1,18 @@
 type = listener_instances
 
+listener_instance {
+  listener_instance_identifier = b55c43fa-96ea-4337-9844-72c77d9687d1-1785435120428
+  listener_provider_identifier = server_left
+  listener_instance_action_script_identifier = b40b8cf1-1e75-4e70-9cdc-be51057c0811-1785435120428
+  [executable_action_instance:c2903407-2e32-4832-8fe5-31e94787b805-1785435123544][action_type:set_variable] = server_ip:$$server_ip
+  [executable_block:b40b8cf1-1e75-4e70-9cdc-be51057c0811-1785435120428][type:generic] = [executables:c2903407-2e32-4832-8fe5-31e94787b805-1785435123544;]
+}
+
+listener_instance {
+  listener_instance_identifier = 8bc62fe4-ef8c-4810-b180-6fc34ae7b6f6-1785435072076
+  listener_provider_identifier = server_joined
+  listener_instance_action_script_identifier = 37fed2c5-946c-45b7-a412-69d30b168a5d-1785435072077
+  [executable_action_instance:081feff7-c1b1-41cf-a07b-4a22f099776d-1785435077129][action_type:set_variable] = server_ip:$$server_ip
+  [executable_block:37fed2c5-946c-45b7-a412-69d30b168a5d-1785435072077][type:generic] = [executables:081feff7-c1b1-41cf-a07b-4a22f099776d-1785435077129;]
+}
+

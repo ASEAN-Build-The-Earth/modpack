@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = join_multiplayer_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1781709097941
+  last_edited_time = 1785435642346
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:9dfd042e-7077-46e2-b1e1-38682f1816e5-1781709064865] = [groups:][instances:]
+  [loading_requirement_container_meta:0a368d90-b6f7-49c4-86af-c8f0e82d2ae5-1785435032803] = [groups:][instances:]
 }
 
 menu_background {
@@ -93,11 +93,11 @@ menu_background {
   instance_identifier = 56a826f2-4aa4-4302-824d-332408c72372-1781268623309
   background_type = glsl
   show_background = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none
@@ -129,13 +129,6 @@ menu_background {
   show_compile_errors = true
 }
 
-menu_background {
-  instance_identifier = 01786524-b5cc-4200-bf0d-fd798ccaa839-1781268623309
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
-}
-
 decoration_overlay {
   overlay_type = browser
   instance_identifier = cceab68c-a134-4f79-9fc8-7703bbdfd571-1781268623309
@@ -157,11 +150,11 @@ decoration_overlay {
   overlay_type = glsl
   instance_identifier = 0ebda661-c7b4-4d21-866a-580760d3f391-1781268623309
   show_decoration_overlay = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none

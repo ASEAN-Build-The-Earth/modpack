@@ -1,0 +1,13 @@
+type = scheduler_instances
+
+scheduler_instance {
+  scheduler_identifier = scheduler_49bb4f84-848d-4da1-996e-04ee7b82380c
+  scheduler_action_script_identifier = 05c6af80-a7a9-4a89-8f51-dd56170b0076-1785534517036
+  scheduler_start_on_launch = true
+  scheduler_start_delay_ms = 20
+  scheduler_tick_delay_ms = 20
+  scheduler_ticks_to_run = 0
+  [executable_action_instance:e4f7a992-2a96-46ce-bb85-fca23dcb6c92-1785534622646][action_type:send_http_request] = https://asean-build-the-earth.github.io/modpack/buildteams.json|||GET||||||application/json|||1|||false|||json_api|||true|||NONE||||||||||||||||||
+  [executable_block:05c6af80-a7a9-4a89-8f51-dd56170b0076-1785534517036][type:generic] = [executables:e4f7a992-2a96-46ce-bb85-fca23dcb6c92-1785534622646;]
+}
+

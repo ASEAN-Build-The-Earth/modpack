@@ -11,8 +11,8 @@ layout-meta {
   layout_index = 0
   [loading_requirement_container_meta:5ef1852d-2df2-4a93-82ba-81753524be8a-1785375483969] = [groups:group_1;][instances:]
   [loading_requirement_group:group_1] = [group_mode:and]
-  [loading_requirement:fancymenu_loading_requirement_is_multiplayer][requirement_mode:if_not][group:group_1][req_id:9771cd63-535a-4536-a3be-601e6b2b9b29-1785375445314] =
-  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if_not][group:group_1][req_id:98ea4a8e-fa43-4af1-9bc9-81b5d226a33f-1785375457314] =
+  [loading_requirement:fancymenu_loading_requirement_is_multiplayer][requirement_mode:if_not][group:group_1][req_id:9771cd63-535a-4536-a3be-601e6b2b9b29-1785375445314] = 
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if_not][group:group_1][req_id:98ea4a8e-fa43-4af1-9bc9-81b5d226a33f-1785375457314] = 
 }
 
 menu_background {
@@ -96,11 +96,11 @@ menu_background {
   instance_identifier = a8a67d31-20bc-421d-85a8-607c70950499-1781268519412
   background_type = glsl
   show_background = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none
@@ -160,11 +160,11 @@ decoration_overlay {
   overlay_type = glsl
   instance_identifier = bb8731e8-da10-42ed-ae39-ae60c8881a55-1781268519412
   show_decoration_overlay = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none

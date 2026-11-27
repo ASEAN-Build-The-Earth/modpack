@@ -1,12 +1,6 @@
 type = customizablemenus
 
-de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
-}
-
 net.minecraft.client.gui.screens.PauseScreen {
-}
-
-com.terraformersmc.modmenu.gui.ModsScreen {
 }
 
 com.viaversion.viafabricplus.screen.impl.ProtocolSelectionScreen {
@@ -45,9 +39,30 @@ net.minecraft.client.gui.screens.DisconnectedScreen {
 net.minecraft.client.gui.screens.options.OptionsScreen {
 }
 
+net.minecraft.client.gui.screens.ConfirmScreen {
+}
+
+net.minecraft.client.gui.screens.options.LanguageSelectScreen {
+}
+
+net.minecraft.client.gui.screens.friends.FriendsOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+com.moulberry.flashback.screen.select_replay.SelectReplayScreen {
+}
+
 com.moulberry.flashback.screen.SaveReplayScreen {
 }
 
-net.minecraft.client.gui.screens.ConfirmScreen {
+net.minecraft.client.gui.screens.ManageServerScreen {
+}
+
+com.replaymod.lib.de.johni0702.minecraft.gui.container.AbstractGuiScreen$MinecraftGuiScreen {
+}
+
+com.terraformersmc.modmenu.gui.ModsScreen {
 }
 

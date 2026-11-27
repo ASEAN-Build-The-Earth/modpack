@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = bte_eu
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1785267407596
+  last_edited_time = 1787155252573
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5400c214-ad71-477a-8ff9-140da39018a6-1785267278740] = [groups:][instances:]
+  [loading_requirement_container_meta:87d1f67a-86fa-4a7b-a170-5d7b5b983e68-1787155243477] = [groups:][instances:]
 }
 
 menu_background {
@@ -60,8 +60,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = a58c2565-86e1-4875-8d71-99edd8ebeee9-1781214579663
-  background_type = video_mcef
+  instance_identifier = 92bcc652-a1b6-4bed-9006-c21487230745-1785548706616
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -93,11 +93,11 @@ menu_background {
   instance_identifier = 5ae256ce-ff80-45a6-b556-e2af0b6a8c3c-1781214579664
   background_type = glsl
   show_background = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none
@@ -129,13 +129,6 @@ menu_background {
   show_compile_errors = true
 }
 
-menu_background {
-  instance_identifier = 7c0c2859-49b1-467f-a167-d136599776d0-1781214579664
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
-}
-
 decoration_overlay {
   overlay_type = browser
   instance_identifier = 8abe4420-8f98-436f-9812-d89f0ec5d37c-1781214579664
@@ -157,11 +150,11 @@ decoration_overlay {
   overlay_type = glsl
   instance_identifier = 70ea33d7-2b0b-4aa1-b9a3-d7ee224eb87b-1781214579664
   show_decoration_overlay = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none
@@ -413,7 +406,8 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = eadf5c20-59b9-4abe-a6a8-1807b3cba3c6-1781373511076
@@ -469,7 +463,7 @@ element {
 
 element {
   button_element_executable_block_identifier = e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723
-  [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-norbal.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
+  [executable_action_instance:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "{"placeholder": "getvariable","values": {"name": "json_api"}}",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-norbal.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_action_instance:cc452806-ac28-4c48-a234-f883ae9ce2ad-1781552098633][action_type:set_variable] = current_server:bte-norbal
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:772613a8-a56c-49a0-9a25-417ef9b25a33-1781229347614;cc452806-ac28-4c48-a234-f883ae9ce2ad-1781552098633;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button.png
@@ -480,7 +474,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = true
-  description = &e{%n%    "placeholder": "json",%n%    "values": {%n%        "source": "/config/fancymenu/assets/buildteams.json",%n%        "json_path": "$.bte-norbal.name"%n%    }%n%} &r%n%Players: {%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-norbal.ip"}}"%n%    }%n%}%n%Version: {%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-norbal.ip"}}"%n%    }%n%}
+  description = &e{%n%    "placeholder": "json",%n%    "values": {%n%        "source": "{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path": "$.bte-norbal.name"%n%    }%n%} &r%n%Players: {%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-norbal.ip"}}"%n%    }%n%}%n%Version: {%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-norbal.ip"}}"%n%    }%n%}
   navigatable = true
   widget_active_state_requirement_container_identifier = 0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723
   [loading_requirement_container_meta:0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723] = [groups:][instances:]
@@ -503,13 +497,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 186
+  x = 180
   y = 35
-  width = 83
+  width = 101
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -554,7 +549,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-norbal.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-norbal.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -585,11 +580,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = b6e611f1-326b-4e77-8337-f98c6268d875-1781289256986
-  x = 54
+  x = 72
   y = 15
   width = 35
   height = 12
@@ -674,13 +670,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 205
+  x = 202
   y = 176
-  width = 55
+  width = 59
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -725,7 +722,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-balkans.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-balkans.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -756,11 +753,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 0207dd77-507c-482d-aeee-9e9fc3f957d6-1781288813353
-  x = 26
+  x = 30
   y = 15
   width = 35
   height = 12
@@ -845,13 +843,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 103
+  x = 100
   y = 176
-  width = 45
+  width = 51
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -896,7 +895,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-iberia.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-iberia.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -927,11 +926,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 9338b07b-aee3-4365-b0a7-b85937803ba7-1781289036493
-  x = 16
+  x = 22
   y = 15
   width = 35
   height = 12
@@ -1016,13 +1016,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
   x = 214
   y = 151
-  width = 56
+  width = 59
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1067,7 +1068,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-hungary.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-hungary.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -1098,11 +1099,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 6790ecce-796e-40a1-86e0-802a07d7da3c-1781288606323
-  x = 27
+  x = 30
   y = 15
   width = 35
   height = 12
@@ -1187,13 +1189,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 247
+  x = 248
   y = 125
-  width = 52
+  width = 58
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1238,7 +1241,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-ukraine.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-ukraine.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -1269,11 +1272,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 938694b3-f21b-4446-b40f-6d253044e26f-1781282186636
-  x = 23
+  x = 29
   y = 15
   width = 35
   height = 12
@@ -1358,13 +1362,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 169
+  x = 161
   y = 151
-  width = 43
+  width = 51
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1409,7 +1414,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-italia.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-italia.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -1440,11 +1445,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = eb420181-b1a2-419e-8af8-beedcf92bdde-1781283549437
-  x = 14
+  x = 22
   y = 15
   width = 35
   height = 12
@@ -1529,13 +1535,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 189
+  x = 184
   y = 125
-  width = 56
+  width = 62
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1580,7 +1587,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-alps.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-alps.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -1611,11 +1618,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = e52bc092-2022-4b58-97ef-1db64b43dc3d-1781276996701
-  x = 27
+  x = 33
   y = 15
   width = 35
   height = 12
@@ -1700,13 +1708,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 268
+  x = 275
   y = 176
-  width = 49
+  width = 53
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1751,7 +1760,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-turkey.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-turkey.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1782,11 +1791,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = a56137ed-e505-4e4d-880d-a6ad548b2c28-1781220550775
-  x = 20
+  x = 24
   y = 15
   width = 35
   height = 12
@@ -1871,13 +1881,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 137
+  x = 130
   y = 125
-  width = 50
+  width = 52
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1922,7 +1933,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-france.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-france.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -1953,11 +1964,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 0c9ecc43-980a-450d-9f89-022e16c23672-1781463096430
-  x = 21
+  x = 23
   y = 15
   width = 35
   height = 12
@@ -2042,13 +2054,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
   x = 63
   y = 75
-  width = 90
+  width = 101
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -2093,7 +2106,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-uk.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-uk.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -2124,11 +2137,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = c10492ec-b194-4c82-872b-3a7d8e45cfee-1781463235989
-  x = 61
+  x = 72
   y = 15
   width = 35
   height = 12
@@ -2187,6 +2201,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -30
@@ -2275,13 +2290,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 74
-  y = 102
-  width = 55
+  x = 63
+  y = 100
+  width = 58
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -2326,7 +2342,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-ireland.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-ireland.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -2357,11 +2373,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 7328622d-8868-488a-8e7f-0321101947ee-1781463700555
-  x = 26
+  x = 29
   y = 15
   width = 35
   height = 12
@@ -2446,13 +2463,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 189
+  x = 184
   y = 100
-  width = 56
+  width = 61
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -2497,7 +2515,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-german.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-german.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -2528,11 +2546,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 12541cba-db6d-44f5-904b-9cd4252001d4-1781463946865
-  x = 27
+  x = 32
   y = 15
   width = 35
   height = 12
@@ -2617,13 +2636,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 131
+  x = 123
   y = 100
-  width = 56
+  width = 59
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -2668,7 +2688,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-benelux.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-benelux.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -2699,11 +2719,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 345cd1f4-16fe-46bb-8f62-51417fef15ec-1781464058417
-  x = 27
+  x = 30
   y = 15
   width = 35
   height = 12
@@ -2788,13 +2809,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 183
+  x = 184
   y = 75
-  width = 90
+  width = 104
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -2839,7 +2861,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-czech.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-czech.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -2870,11 +2892,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = d7727f54-bc4b-4a3f-9ed1-a19e0380f0d5-1781464273114
-  x = 61
+  x = 75
   y = 15
   width = 35
   height = 12
@@ -2959,7 +2982,8 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
@@ -3010,7 +3034,7 @@ element {
 
 element {
   interactable = false
-  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-poland.ip"}}"%n%    }%n%}
+  source = {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-poland.ip"}}"%n%    }%n%}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -3041,7 +3065,8 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1167
+  auto_sizing_base_gui_scale = 3
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 2508e24f-bacf-41a4-bdcf-730f322459aa-1781464466840
@@ -3096,7 +3121,7 @@ element {
 
 element {
   button_element_executable_block_identifier = e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723
-  [executable_action_instance:f2acebab-852b-4d32-8246-4bafc0daa2a3-1781215160016][action_type:back_to_last_screen] =
+  [executable_action_instance:f2acebab-852b-4d32-8246-4bafc0daa2a3-1781215160016][action_type:back_to_last_screen] = 
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:f2acebab-852b-4d32-8246-4bafc0daa2a3-1781215160016;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button_back.png
   backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_back_hover.png
@@ -3128,11 +3153,12 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = mid-centered
   x = -218
   y = -120
-  width = 39
+  width = 41
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -3211,12 +3237,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 8af42572-1c30-4286-a1d7-78c6a26e9c38-1785263727411
-  x = -77
+  x = -68
   y = 0
-  width = 76
+  width = 67
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -3296,11 +3323,12 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 142
+  x = 143
   y = -120
-  width = 76
+  width = 75
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -3346,9 +3374,9 @@ element {
 
 element {
   button_element_executable_block_identifier = e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723
-  [executable_action_instance:528ad652-d6c8-43a4-8c76-2c0d8a952b73-1781285778868][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-admin.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
+  [executable_action_instance:528ad652-d6c8-43a4-8c76-2c0d8a952b73-1781285778868][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "{"placeholder": "getvariable","values": {"name": "json_api"}}",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-global.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_action_instance:1e9e9e4a-d4a2-4350-949c-06557b3a0707-1781553715758][action_type:set_variable] = is_main_server:true
-  [executable_action_instance:eee66106-c262-4678-af00-19dc3818f4fe-1781704823634][action_type:set_variable] = current_server:bte-admin
+  [executable_action_instance:eee66106-c262-4678-af00-19dc3818f4fe-1781704823634][action_type:set_variable] = current_server:bte-global
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:528ad652-d6c8-43a4-8c76-2c0d8a952b73-1781285778868;1e9e9e4a-d4a2-4350-949c-06557b3a0707-1781553715758;eee66106-c262-4678-af00-19dc3818f4fe-1781704823634;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button_main.png
   backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
@@ -3358,7 +3386,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = true
-  description = BuildTheEarth.net%n%{%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-admin.ip"}}"%n%    }%n%} | {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-admin.ip"}}"%n%    }%n%} &e%n%{%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-admin.ip"}}"%n%    }%n%}
+  description = BuildTheEarth.net%n%{%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-global.ip"}}"%n%    }%n%} | {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-global.ip"}}"%n%    }%n%} &e%n%{%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-global.ip"}}"%n%    }%n%}
   navigatable = true
   widget_active_state_requirement_container_identifier = 0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723
   [loading_requirement_container_meta:0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723] = [groups:][instances:]
@@ -3381,12 +3409,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = a121a7c0-6458-459b-a674-d1db9e94d93a-1785263727408
-  x = 40
+  x = 42
   y = 0
-  width = 56
+  width = 50
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -3444,7 +3473,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = true
-  description = BTE Event%n%{%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%} | {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%} &e%n%{%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%}
+  description = BTE Event%n%{%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%} | {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%} &e%n%{%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%}
   navigatable = true
   widget_active_state_requirement_container_identifier = 0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723
   [loading_requirement_container_meta:0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723] = [groups:][instances:]
@@ -3467,12 +3496,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = a121a7c0-6458-459b-a674-d1db9e94d93a-1785263727408
-  x = 97
+  x = 93
   y = 0
-  width = 56
+  width = 50
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723

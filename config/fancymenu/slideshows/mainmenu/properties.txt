@@ -1,5 +1,6 @@
 type = slideshow
 
+
 slideshow-meta {
    name = main_menu
    width = 1920

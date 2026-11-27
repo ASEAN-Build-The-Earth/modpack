@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1785373050708
+  last_edited_time = 1785925368406
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:71402e0e-f582-4982-bd17-94e02a0e6c46-1785372822333] = [groups:][instances:]
+  [loading_requirement_container_meta:49e7e0d1-e53f-4ca4-8a79-59375960a205-1785925351885] = [groups:][instances:]
 }
 
 menu_background {
@@ -59,8 +59,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = b34e0383-9a17-4d53-b35a-cf89b05832ad-1781211331451
-  background_type = video_mcef
+  instance_identifier = 4ab8eb00-7433-473c-a233-558d5a68e6a7-1785925351885
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -92,11 +92,11 @@ menu_background {
   instance_identifier = cde86130-480e-42b2-9ab6-d8649e8edb39-1781211331451
   background_type = glsl
   show_background = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none
@@ -156,11 +156,11 @@ decoration_overlay {
   overlay_type = glsl
   instance_identifier = 6957859a-64fe-4b79-ac3a-215b01c61a66-1781211331451
   show_decoration_overlay = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = bte_na
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1785263835971
+  last_edited_time = 1787155266651
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:4c13ab8c-b3ab-4dd2-98a6-16d03fb2266a-1785263799142] = [groups:][instances:]
+  [loading_requirement_container_meta:437a8d18-def3-4360-a11b-f449301acbec-1787155259434] = [groups:][instances:]
 }
 
 menu_background {
@@ -60,8 +60,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = a58c2565-86e1-4875-8d71-99edd8ebeee9-1781214579663
-  background_type = video_mcef
+  instance_identifier = 98a9a042-1456-49ef-8dc1-b59bbc349abe-1786978376038
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -93,11 +93,11 @@ menu_background {
   instance_identifier = 5ae256ce-ff80-45a6-b556-e2af0b6a8c3c-1781214579664
   background_type = glsl
   show_background = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none
@@ -129,13 +129,6 @@ menu_background {
   show_compile_errors = true
 }
 
-menu_background {
-  instance_identifier = 7c0c2859-49b1-467f-a167-d136599776d0-1781214579664
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
-}
-
 decoration_overlay {
   overlay_type = browser
   instance_identifier = 8abe4420-8f98-436f-9812-d89f0ec5d37c-1781214579664
@@ -157,11 +150,11 @@ decoration_overlay {
   overlay_type = glsl
   instance_identifier = 70ea33d7-2b0b-4aa1-b9a3-d7ee224eb87b-1781214579664
   show_decoration_overlay = false
-  inline_shader_source =
-  buffer_a_inline_source =
-  buffer_b_inline_source =
-  buffer_c_inline_source =
-  buffer_d_inline_source =
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none
@@ -397,7 +390,8 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = c837e957-58ff-4ebe-81a4-b6676ec2890e-1781346736908
@@ -487,13 +481,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
   x = 161
-  y = 76
-  width = 57
+  y = 99
+  width = 52
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -569,7 +564,8 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = b6e611f1-326b-4e77-8337-f98c6268d875-1781289256986
@@ -658,13 +654,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 191
-  y = 187
-  width = 114
+  x = 161
+  y = 182
+  width = 131
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -740,11 +737,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 0207dd77-507c-482d-aeee-9e9fc3f957d6-1781288813353
-  x = 85
+  x = 102
   y = 15
   width = 35
   height = 12
@@ -829,13 +827,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 109
-  y = 161
-  width = 133
+  x = 81
+  y = 156
+  width = 153
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -911,11 +910,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 9338b07b-aee3-4365-b0a7-b85937803ba7-1781289036493
-  x = 104
+  x = 124
   y = 15
   width = 35
   height = 12
@@ -1000,13 +1000,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 245
-  y = 154
-  width = 71
+  x = 236
+  y = 156
+  width = 77
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1082,11 +1083,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = e52bc092-2022-4b58-97ef-1db64b43dc3d-1781276996701
-  x = 42
+  x = 48
   y = 15
   width = 35
   height = 12
@@ -1171,12 +1173,13 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 245
-  y = 128
+  x = 236
+  y = 130
   width = 33
   height = 20
   stay_on_screen = true
@@ -1253,11 +1256,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = 2945e778-995b-4a72-97dd-897fa2db6d35-1781281925455
-  x = 4
+  x = 3
   y = 15
   width = 35
   height = 12
@@ -1316,6 +1320,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -30
@@ -1404,13 +1409,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 0d5bb651-5cd5-449d-9785-f4196fdcf6d8-1781220000574
-  x = 156
-  y = 136
-  width = 86
+  x = 140
+  y = 130
+  width = 94
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1486,11 +1492,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1096
+  auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = true
   anchor_point = element
   anchor_point_element = ee219a69-fded-4a0c-95d1-701b462ee55b-1781467658592
-  x = 57
+  x = 65
   y = 15
   width = 35
   height = 12
@@ -1541,7 +1548,7 @@ element {
 
 element {
   button_element_executable_block_identifier = e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723
-  [executable_action_instance:f2acebab-852b-4d32-8246-4bafc0daa2a3-1781215160016][action_type:back_to_last_screen] =
+  [executable_action_instance:f2acebab-852b-4d32-8246-4bafc0daa2a3-1781215160016][action_type:back_to_last_screen] = 
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:f2acebab-852b-4d32-8246-4bafc0daa2a3-1781215160016;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button_back.png
   backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_back_hover.png
@@ -1573,11 +1580,12 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = mid-centered
   x = -218
   y = -120
-  width = 39
+  width = 41
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1656,12 +1664,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 86b537b6-9621-488e-9a8f-54c1036a4951-1785263812796
-  x = -77
+  x = -68
   y = 0
-  width = 76
+  width = 67
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1741,11 +1750,12 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 142
+  x = 143
   y = -120
-  width = 76
+  width = 75
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1791,9 +1801,9 @@ element {
 
 element {
   button_element_executable_block_identifier = e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723
-  [executable_action_instance:528ad652-d6c8-43a4-8c76-2c0d8a952b73-1781285778868][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "/config/fancymenu/assets/buildteams.json",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-admin.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
+  [executable_action_instance:528ad652-d6c8-43a4-8c76-2c0d8a952b73-1781285778868][action_type:joinserver] = {%!n!%%!s!%%!s!%%!s!%%!s!%"placeholder": "json",%!n!%%!s!%%!s!%%!s!%%!s!%"values": {%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"source": "{"placeholder": "getvariable","values": {"name": "json_api"}}",%!n!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%%!s!%"json_path": "$.bte-global.ip"%!n!%%!s!%%!s!%%!s!%%!s!%}%!n!%}
   [executable_action_instance:1e9e9e4a-d4a2-4350-949c-06557b3a0707-1781553715758][action_type:set_variable] = is_main_server:true
-  [executable_action_instance:eee66106-c262-4678-af00-19dc3818f4fe-1781704823634][action_type:set_variable] = current_server:bte-admin
+  [executable_action_instance:eee66106-c262-4678-af00-19dc3818f4fe-1781704823634][action_type:set_variable] = current_server:bte-global
   [executable_block:e78dff5e-ffc9-4826-af4e-b47f61eeb1c2-1781215015723][type:generic] = [executables:528ad652-d6c8-43a4-8c76-2c0d8a952b73-1781285778868;1e9e9e4a-d4a2-4350-949c-06557b3a0707-1781553715758;eee66106-c262-4678-af00-19dc3818f4fe-1781704823634;]
   backgroundnormal = [source:local]/config/fancymenu/assets/textures/button_main.png
   backgroundhovered = [source:local]/config/fancymenu/assets/textures/button_main_hover.png
@@ -1803,7 +1813,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = true
-  description = BuildTheEarth.net%n%{%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-admin.ip"}}"%n%    }%n%} | {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-admin.ip"}}"%n%    }%n%} &e%n%{%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-admin.ip"}}"%n%    }%n%}
+  description = BuildTheEarth.net%n%{%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-global.ip"}}"%n%    }%n%} | {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-global.ip"}}"%n%    }%n%} &e%n%{%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-global.ip"}}"%n%    }%n%}
   navigatable = true
   widget_active_state_requirement_container_identifier = 0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723
   [loading_requirement_container_meta:0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723] = [groups:][instances:]
@@ -1826,12 +1836,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = dada3256-47c4-47bd-9f19-e236cccd73db-1785263812796
-  x = 40
+  x = 42
   y = 0
-  width = 56
+  width = 50
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
@@ -1889,7 +1900,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = true
-  description = BTE Event%n%{%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%} | {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%} &e%n%{%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"/config/fancymenu/assets/buildteams.json",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%}
+  description = BTE Event%n%{%n%    "placeholder": "serverplayercount",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%} | {%n%    "placeholder": "serverstatus",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%} &e%n%{%n%    "placeholder": "serverversion",%n%    "values": {%n%        "ip": "{"placeholder":"json","values":{"source":"{"placeholder": "getvariable","values": {"name": "json_api"}}",%n%        "json_path":"$.bte-event.ip"}}"%n%    }%n%}
   navigatable = true
   widget_active_state_requirement_container_identifier = 0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723
   [loading_requirement_container_meta:0c5be351-f599-41e0-bad5-6a0ccdb28678-1781215015723] = [groups:][instances:]
@@ -1912,12 +1923,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1168
+  auto_sizing_base_gui_scale = 4
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = dada3256-47c4-47bd-9f19-e236cccd73db-1785263812796
-  x = 97
+  x = 93
   y = 0
-  width = 56
+  width = 50
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = ad49074b-e06a-46e1-8e90-7630f81e779b-1781215015723
